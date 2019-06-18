@@ -12,7 +12,7 @@ public class TestPerson {
         Person person = new Person();
 
         //When
-        Long expectedId = 0L;
+        Long expectedId = Long.MIN_VALUE;
         String expectedName = "";
 
         //Then

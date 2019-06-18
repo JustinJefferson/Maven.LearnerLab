@@ -6,7 +6,7 @@ public class Person {
     private String name;
 
     public Person() {
-        id = 0L;
+        id = Long.MIN_VALUE;
         name = "";
     }
 
